@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+nav a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #575757;
+}
+.container {
+    padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+button {
+    padding: 0.7rem 1.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #575757;
+}
+.scrollable-content {
+    max-height: 300px; /* Adjust the height as per your design */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding-right: 10px; /* Optional, adds some space to the right side */
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; /* Optional, adds a border around the scrollable area */
+    border-radius: 5px; /* Optional, adds rounded corners */
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed; /* Fixes the footer at the bottom of the page */
+    bottom: 0; /* Positions it at the bottom of the viewport */
+    width: 100%; /* Makes sure the footer spans across the entire width */
+    left: 0; /* Ensures it's aligned to the left side */
+}
+button {
+    padding: 0.7rem 1.5rem;
+    background: #413f3f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adds rounded corners */
+}
+.btn {
+    color: #fdfdfd; /* Blue text color */
+}
+
