@@ -95,4 +95,16 @@ button {
 .btn {
     color: #fdfdfd; /* Blue text color */
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+body {
+    overflow-x: hidden;
+}
 
